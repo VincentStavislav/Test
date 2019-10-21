@@ -1,0 +1,110 @@
+body {
+    background-image: url("img/dark-triangles.png");
+    width: 1920px;
+    height: 1080px;
+    margin: 0px;
+}
+
+main{
+    text-align: center;
+    line-height: 1080px;
+}
+
+#OutRect{
+    left: 343px;
+    top: 294px;
+    width: 312px;
+    height: 295px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    margin-top: auto;
+    display: inline-block;
+    margin-bottom: 50%;
+}
+
+#MainRect{
+    left: 360px;
+    top: 310px;
+    width: 279px;
+    height: 260px;
+    line-height: 20px;
+    background-color: rgba(179, 179, 179, 1);
+    text-align: center;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+    margin-top: 16px;
+    display: inline-block;
+}
+
+h1{
+    left: 422px;
+    top: 427px;
+    width: 155px;
+    height: 29px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    text-align: center;
+    font-family: Roboto;
+}
+
+#pLogin{
+    left: 474px;
+    top: 332px;
+    width: 53px;
+    height: 29px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+#txtLogin{
+    left: 418px;
+    top: 384px;
+    width: 190px;
+    height: 29px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 10px;
+    text-align: left;
+    font-family: Roboto, sans-serif;
+}
+
+#txtPassword{
+    left: 418px;
+    top: 428px;
+    width: 190px;
+    height: 29px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 10px;
+    text-align: left;
+    font-family: Roboto, sans-serif;
+}
+
+#inpLogin{
+    left: 417px;
+    top: 491px;
+    width: 166px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgba(255, 0, 15, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+
+
+#aForgotPass{
+    left: 460px;
+    top: 531px;
+    width: 81px;
+    height: 29px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 10px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
